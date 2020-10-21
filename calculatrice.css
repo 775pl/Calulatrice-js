@@ -1,0 +1,260 @@
+.calculette{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
+    grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr 5%;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    background: linear-gradient(to top left,#FEF4DC, #C5BFFA);
+}
+.egale{
+    grid-column: 5;
+    grid-row: 7;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #1E90FF;
+
+}
+
+.egale:hover{
+    background-color: #4169E1;
+}
+.virgule{
+    border: none;
+    border-radius: 5px;
+    grid-column: 4;
+    grid-row: 7;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.virgule:hover{
+    background-color: #CECECE;
+}
+.touche0{
+    border: none;
+    border-radius: 5px;
+    grid-column: 3;
+    grid-row: 7;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.touche0:hover{
+    background-color: #CECECE;
+}
+.touche1{
+    border: none;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 6;
+    margin: 2px;   
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche1:hover{
+    background-color: #CECECE;
+}
+.touche2{
+    border: none;
+    border-radius: 5px;
+    grid-column: 3;
+    grid-row: 6;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche2:hover{
+    background-color: #CECECE;
+}
+.touche3{
+    border: none;
+    border-radius: 5px;
+    grid-column: 4;
+    grid-row: 6;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche3:hover{
+    background-color: #CECECE;
+}
+.touche4{
+    border: none;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 5;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.touche4:hover{
+    background-color: #CECECE;
+}
+.touche5{
+    border: none;
+    border-radius: 5px;
+    grid-column: 3;
+    grid-row: 5;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche5:hover{
+    background-color: #CECECE;
+}
+.touche6{
+    border: none;
+    border-radius: 5px;
+    grid-column: 4;
+    grid-row: 5;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche6:hover{
+    background-color: #CECECE;
+}
+.touche7{
+    border: none;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 4;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche7:hover{
+    background-color: #CECECE;
+}
+.touche8{
+    border: none;
+    border-radius: 5px;
+    grid-column: 3;
+    grid-row: 4;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.touche8:hover{
+    background-color: #CECECE;
+}
+.touche9{
+    border: none;
+    border-radius: 5px;
+    grid-column: 4;
+    grid-row: 4;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.touche9:hover{
+    background-color: #CECECE;
+}
+.addition{
+    border: none;
+    border-radius: 5px;
+    grid-column: 5;
+    grid-row: 4;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.addition:hover{
+    background-color: #CECECE;
+}
+.soustraction{
+    border: none;
+    border-radius: 5px;
+    grid-column: 5;
+    grid-row: 5;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.soustraction:hover{
+    background-color: #CECECE;
+}
+.multiplication{
+    border: none;
+    border-radius: 5px;
+    grid-column: 5;
+    grid-row: 6;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.multiplication:hover{
+    background-color: #CECECE;
+}
+.division{
+    border: none;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 7;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.division:hover{
+    background-color: #CECECE;
+}
+.delete{
+    border: none;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.delete:hover{
+    background-color: #CECECE;
+}
+
+.rentrer{
+    grid-column: 3 /span 3;
+    grid-row: 2;
+    border: 2px solid black ;
+    width: auto;
+    height: 35px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #FEF4DC, #C5BFFA)
+}
+.merci{
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 600px;
+    height: 95px;
+    padding: 30px;
+    margin-top: 50px;
+}
+p{
+    font-size: 1.5em;
+    font-family: monospace;
+}
